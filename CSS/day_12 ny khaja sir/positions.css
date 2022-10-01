@@ -1,0 +1,33 @@
+.parentone{
+    height: 2000px;
+    width: 300px;
+    border: 2px solid red;
+    /* position: relative; */
+}
+.parenttwo{
+    height: 2000px;
+    width: 300px;
+    border: 4px solid yellow;
+    /* position: relative; */
+}
+.childone{
+    height: 100px;
+    width: 100px;
+    border: 4px solid green;
+    /* 
+    stick postion sirf uske hi dive me fixed poition rahega */
+    position: sticky;
+    top: 0px ;
+
+}
+.childtwo{
+    height: 50px;
+    width: 50px;
+  border: 4px solid blue;
+  position: fixed;
+  /* fixed position uski postion poore page me uski jo position hai wo fixed rakhega */
+  top: 200px;
+  right: 30px;
+  border-radius: 50px;
+  cursor: pointer;
+}

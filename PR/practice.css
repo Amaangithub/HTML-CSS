@@ -1,0 +1,31 @@
+.parent{
+    background-color: cadetblue;
+    position: relative;
+    height: 600px;
+    width: 900px;
+    margin: auto;
+}
+
+.one{
+    background-color: gray;
+    /* height: 100px; */
+    width: 100%;
+    margin: auto;
+    display: inline;
+    position: absolute;
+    align-content: center;
+    font-size: xx-large;
+    /* left: 300px; */
+
+}
+.two{
+    background-color: rgb(118, 220, 159);
+    height: 200px;
+    width: 350px;
+
+}
+.three{
+    background-color: rgb(120, 147, 227);
+    height: 300px;
+    width: 450px;
+}

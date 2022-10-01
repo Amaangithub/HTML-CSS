@@ -1,0 +1,90 @@
+.navbar{
+    background-color: darkcyan;
+    height: 100px;
+}
+a{
+    color: rgb(89, 235, 116);
+    line-height: 75px;
+    font-size: 25px;
+    padding: 25px;
+}
+.main{
+    background-color: bisque;
+    height: auto;
+
+}
+.left{
+    background-color: greenyellow;
+    height: 450px;
+    width: 21%;
+    float: left;
+    margin: 10px;
+    
+}
+img{
+    height: 450px;
+    width: 21%;
+    float: left;
+    margin: 10px;
+}
+.center{
+    background-color: brown;
+    height: 450px;
+    width: 45%;
+    float: left;
+    margin: 10px;
+
+}
+.right{
+    background-color: yellow;
+    height: 450px;
+    width: 21%;
+    float: left;
+    margin: 10px;
+}
+.cardparent{
+    clear: both;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+}
+.card {
+    height: 200px;
+    background-color: darkgoldenrod;
+    width: 20%;
+    margin: 20px;
+    
+    
+}
+@media screen and (max-width:900px) {
+    .navbar{
+        height: auto;
+    }
+    a {
+        color: blueviolet;
+        display: block;
+        line-height: 40px;
+        padding: 15px;
+        text-decoration: none;
+    }
+    .main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .left {
+        width: 100%;
+        height: 150px;
+    }
+    .center {
+        width: 100%;
+        height: 150px;
+    }
+    .right {
+        width: 100%;
+        height: 150px;}
+        .card{
+            width: 48%;
+        }
+}

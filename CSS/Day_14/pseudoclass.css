@@ -1,0 +1,46 @@
+a{
+    text-decoration: none;
+}
+
+.one:link {
+    color: green;
+}
+.two:visited {
+    color: blueviolet;
+}
+.three:hover {
+    color: coral;
+    background-color: gray;   
+}
+
+.four:active {
+    color: red;
+}
+
+.three:visited{
+    color: blueviolet;
+}
+
+input:checked {
+    
+    outline: 2px red solid;
+}
+
+/* input{
+    color: aqua;
+    width: 200px;
+
+}
+input:disabled{
+    background-color: gray;
+} */
+/* :first-child is used to select the first (given tag) in the parent tag*/
+p:first-child{
+    background-color: darkcyan;
+}
+
+.input :focus {
+    height: 300px;
+    width: 300px;
+    background-color: darkcyan;
+}

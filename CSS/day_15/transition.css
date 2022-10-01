@@ -1,0 +1,27 @@
+
+.first{
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    background-color: purple;
+    /* transition-property: width;
+    transition-duration: 4s;
+    transition-delay: 3s;
+    transition-timing-function: ease; */
+}
+    
+
+
+
+.one{
+    width:200px;
+    height: 100px ;
+    background-color: cadetblue;
+    transition: width 4s 2s linear;
+    /* first value - transition duration 
+    :second value- delay */
+}
+.one:hover{
+    height: 200px;
+    width: 800px;
+}

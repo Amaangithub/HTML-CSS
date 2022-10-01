@@ -1,0 +1,17 @@
+.parent{
+    background-color: cadetblue;
+    height: 1400px;
+    display:flex;
+    align-content: center;
+    flex-wrap: wrap;
+    
+    flex-direction: column;
+}
+
+.child{
+    background-color: antiquewhite;
+    height: 400px;
+    width: 15%;
+    margin: 5px;
+    
+}

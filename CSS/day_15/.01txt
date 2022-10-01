@@ -1,0 +1,26 @@
+
+.first:hover{
+    width: 600px;
+    /* height:200px; */
+    background-color: crimson;
+}
+.one{
+    transition-timing-function: linear;
+    /* specifies a transition effect with the same speed from start to end */
+}
+.two{
+    transition-timing-function: ease;
+    /* specifies a transition effect with a slow start, then fast, then end slowly (this is default) */
+}
+.three{
+    transition-timing-function: ease-in;
+    /* specifies a transition effect with a slow start */
+}
+.four{
+    transition-timing-function: ease-out;
+    /* specifies a transition effect with a slow end */
+}
+.fifth{
+    transition-timing-function: ease-in-out;
+    /* specifies a transition effect with a slow start and end */
+}

@@ -1,0 +1,53 @@
+</div>
+        <div class="child four">
+            <!-- <img src="./avengers-doctorstrange.jpg" alt=""> -->
+        </div>
+        <div class="child five">
+            <!-- <img src="./avengers-hulk.jpg" alt=""> -->
+        </div>
+        <div class="child six">
+            <!-- <img src="./avengers-iron-man.jpg" alt=""> -->
+        </div>
+
+
+
+css01
+
+
+/* .one{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+     height: 250px;
+    /* width: ; */
+   
+}
+.two{
+    display: flex;
+    justify-content: center;
+     height: 250px; */
+
+     
+        --css02--
+
+        }
+.four{
+    display: flex;
+    width:25%;
+    height: 350px;
+}
+.five{
+    display: flex;
+    width:25%;
+    height: 350px;
+}
+.six{
+    display: flex;
+    width:25%;
+    height: 350px;
+} */
+/* .child:hover{
+    width: 500px;
+    height: 800px;
+    background-color: red;
+}

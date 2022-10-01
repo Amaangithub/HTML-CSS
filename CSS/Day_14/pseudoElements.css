@@ -1,0 +1,36 @@
+p::first-line{
+    color: red;
+}
+p{
+    color: green;
+}
+/* p::first-letter{
+    font-size: 50px;
+    background-color: black;
+    font-style: italic;
+} */
+p::before{
+     content: "Hey There !";
+     background-color: darkgoldenrod;
+     font-size: 50px;
+     font-family: cursive;
+}
+p::after{
+ content: "buy";
+ background-color: blue;
+ font-family: fantasy;
+ font-size:  50px;
+
+}
+/* when we select contect on a page the selcted part will response according to the given values in the css */
+p::selection{
+    color: blue;
+background-color: yellow;
+}
+
+.xyz ::marker{
+    color: red;
+}
+.abc ::marker{
+    color: greenyellow;
+}

@@ -1,0 +1,30 @@
+
+.parent{
+    background-color: gray;
+    height: 1300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: row;
+
+}
+.child{
+    /* width: 23% ; */
+    /* height: 400px; */
+    background-color: seagreen;
+    margin: 5px;
+    /* display: inline-block; */
+}
+.one
+{
+    flex-grow: 2;
+}
+.two
+{
+    flex-grow: 2;
+}
+.three
+{
+    flex-grow: 1;
+}

@@ -1,0 +1,109 @@
+/* div{
+    background-color: cyan;
+    height: 200px;
+    width: 200px;
+    animation-name: divAnimation;
+animation-duration: 5s ;
+}
+@keyframes divAnimation{
+    
+    0% {background-color: brown;}
+    25% {background-color: blue;}
+    50% {background-color: green;}
+    100% {background-color: brown;} */
+/* from{
+        background-color: cyan;
+    } to {
+        background-color: red;
+    } */
+
+.parent {
+    height: 600px;
+    width: 600px;
+    background-color: slategray;
+    position: relative;
+}
+
+.child {
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0px;
+    left: 250px;
+    border-radius: 50px;
+    animation-name: sample;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    /* animation-iteration-count: 3s ; */
+    animation-direction: normal;
+    /* animation-fill-mode: backwards; */
+
+}
+
+@keyframes sample {
+    25% {
+        top: 250px;
+        left: 500px;
+        background-color: red;
+        transform: rotate(90deg);
+    }
+
+    50% {
+        top: 500px;
+        left: 250px;
+        background-color: green;
+        transform: rotate(180deg);
+    }
+
+    75% {
+        top: 250px;
+        left: 0px;
+        background-color: blue;
+        transform: rotate(270deg);
+    }
+
+
+    100% {
+        /* top: 250px;
+        left: 0px;
+        background-color: yellow; */
+        transform: rotate(360deg);
+    }
+}
+
+.rect {
+    background-color: green;
+    width: 200px;
+    height: 110px;
+    position:absolute;
+    animation-name: rect;
+    animation-duration: 6s;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    margin-top: 100px;
+}
+
+@keyframes rect{
+    15%{
+        transform: rotate(45deg);
+        top: 0;
+        left: 0;
+
+    }
+
+    50%{
+        top: 0px;
+        left: 87%;
+        transform: rotate(0deg);
+    }
+
+    100%{
+        top: 0px;
+        left: 0px;
+        transform: rotate(-360deg);
+
+    }
+
+}

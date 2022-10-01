@@ -1,0 +1,57 @@
+.sample{
+    background-color: aquamarine;
+    width: 800px;;
+    height: 600px;
+    border: 2px solid black;
+   position: relative;
+   /* display: flex;
+   align-items: center; */
+}
+.one{
+    background-color: burlywood;
+    width: 150px;
+    height: 150px;
+    top: 0px;
+    left: 5px;
+    
+    border-radius: 100px;
+
+    animation-name: delta;
+    animation-duration: 8s ;
+    animation-timing-function: linear;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+
+    
+}
+.two{
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    /* justify-content: center; */
+    border-radius: 100px;
+    /* align-items: center; */
+    
+}
+@keyframes delta{
+    25%{
+        top: 50px;
+        left: 0px;
+        transform: rotate(45deg);
+    }
+    50%{
+        top: 100px;
+        left: 50px;
+        transform: rotate(90deg);
+    }
+    75%{
+        top: 0px;
+        left: 50px;
+        transform: rotate(75deg);
+    }
+    /* 25%{
+        top: 100px;
+        left: 50px;
+        transform: rotate(45deg);
+    } */
+}
