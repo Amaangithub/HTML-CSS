@@ -1,0 +1,14 @@
+div {
+    background-color: grey;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    
+    padding: 25px 50px 75px 100px;
+    padding: 50px;
+    border-bottom: 5px black dotted ;
+    border: 20px groove blue;
+    border-left: dotted green;
+    padding: 0px 0px 0px 100px;
+    margin: 50px;
+}

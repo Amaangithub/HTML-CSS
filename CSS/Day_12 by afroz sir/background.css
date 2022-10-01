@@ -1,0 +1,27 @@
+#random {
+    width: 600px;
+    height: 1200px;
+    background-color: red;
+    border: 20px dotted;
+    opacity: 1;
+    padding: 50px;
+    background-image: url(./html5-css3.webp);
+    /* background-size: auto; */
+    background-repeat: no-repeat;
+    /* background-position: top left; */
+    /* background-size: cover; */
+    background-attachment: fixed;
+    background-origin: padding-box;
+    background-clip: padding-box;
+
+
+}
+
+/* .dummy {
+    width: 600px;
+    height: 1200px;
+    background-color: navy;
+    background-image: url(./html5-css3.webp);
+
+
+} */

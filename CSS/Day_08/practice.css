@@ -1,0 +1,37 @@
+/* for class we use (.) on prefix */
+.parent1{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+}
+.child1{
+    /* background-color: lightgray; */
+    font-weight: lighter;
+
+}
+.child2{
+    /* background-color: lightgray; */
+    font-weight: bold;
+}
+
+/* for id we use (#) in prefix */
+#parent2{
+    background-color: blanchedalmond;
+}
+
+
+#kid1{
+    background-color: cornflowerblue;
+    align-items: center;
+}
+#kid2{
+    background-color: tomato;
+}
+nav{
+    background-color: rgb(206, 161, 181);
+    height: 25px;
+    width: 150px;
+}
+a{
+    padding: ;
+}

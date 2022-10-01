@@ -1,0 +1,18 @@
+/* div {
+    background-color: rgb(100, 190, 83);
+
+    width: 700px; */
+    /* height: 400px; */
+    /* white-space: nowrap;
+    overflow-x: auto; */
+}
+h1{
+    color: cornflowerblue;
+}
+div{
+    
+    height: 700px;
+    overflow: scroll;
+    white-space: nowrap
+    ;
+}

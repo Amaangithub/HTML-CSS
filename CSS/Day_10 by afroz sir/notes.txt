@@ -1,0 +1,10 @@
+
+
+Priorties of style
+
+                                inline
+                                  |
+                               internal
+                                   |
+
+padding values -    top bottom right left                               external

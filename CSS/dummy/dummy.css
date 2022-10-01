@@ -1,0 +1,38 @@
+.parents{
+background-color: tomato;
+height: 900px;
+width: 500px;
+}
+.second{
+    background-color: aqua;
+}
+
+.one{
+    background-color: greenyellow;
+    height: 250px;
+    width: 150px;
+    position: relative;
+    /* top: 100px;
+    bottom: 100px; */
+    right: 100px;
+
+}
+.two{
+    /* background-color: navajowhite; */
+    background-color: brown;
+    /* background-image: url(./285191410_554013916244801_130605922976939459_n.jpg); */
+    height: 250px;
+    width: 200px;
+    /* background-position:cover ; */
+    position: relative;0
+
+
+    top: 100px;
+}
+.three{
+    background-color: black;
+    height: 250px;
+    width: 350px;
+    position: absolute;
+    bottom: 100px;
+}

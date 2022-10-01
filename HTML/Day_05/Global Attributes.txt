@@ -1,0 +1,12 @@
+samentic
+
+- Golbal Attributes
+
+id
+class 
+hidden
+disabled
+
+input types
+1. inline element = take necesaary width and allow others to be in the same line
+2.  block element = takes the entire width and doesn't allow any element into same

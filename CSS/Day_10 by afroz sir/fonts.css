@@ -1,0 +1,32 @@
+#h1 {
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+p {
+    /* font-weight: bolder;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: line-through;
+    text-decoration-color: white;
+    text-decoration-style: double; */
+/* text-indent: 50px;
+text-align-last: justify;
+white-space: nowrap; */
+color: purple;
+text-decoration:  white line-through solid;
+/* text-shadow: 3px 3px 2px gray;  */
+text-shadow: -3px -3px 2px black;
+
+}
+
+a {
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    /* text-transform: uppercase; */
+    text-transform: capitalize;
+    
+}

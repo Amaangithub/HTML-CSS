@@ -1,0 +1,38 @@
+.parents{
+    width: 800px;
+    height: 1200px;
+    background-color: slateblue;
+    margin: 20px;
+}
+.third{
+    background-color: aquamarine;
+    /* position: relative; */
+    
+}
+.one{
+    width: 200px;
+    height: 350px;
+    background-color: red;
+}
+.two{
+    width: 400px;
+    height: 350px;
+    background-color: green;
+    
+    /* z-index: 6 ; */
+
+    /* position: relative;
+    top: 100px;
+    left: 100px; */
+    position: absolute;
+    top: 100px;
+    right: 100px;
+}
+.three{
+    width: 600px;
+    height: 350px;
+    background-color: blue;
+    /* top: 100px; */
+    /* position: relative; */
+    /* z-index: 5; */
+}

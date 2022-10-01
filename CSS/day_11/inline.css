@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+}
+body{
+    background-color: aquamarine;
+}
+/* h1{
+    background-color: green;
+    width: 50; height: 100px;
+    display: inline-block;
+    margin: 50px;
+} */
+/* span{
+    background-color: gray;
+    height: 300px; width: 200px;
+    display: inline-block;
+
+} */
+
+h1{
+    background-color: red;
+    height: 300px;
+    width: 400px;
+    display: inline;
+}
+h2{
+    background-color: blue;
+    height: 300px;
+    width: 400px;
+    display: inline-block;
+}
+
+#id1{
+    background-color: bisque;
+    height: 100px;
+    width: 200px;
+    display: block;
+}
+.id2{
+    background-color: brown;
+    height: 100px;
+    width: 200px;
+    display: inline-block;
+
+}
