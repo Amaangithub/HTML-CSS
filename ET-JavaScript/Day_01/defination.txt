@@ -1,0 +1,20 @@
+
+# how to clone repo using cmd?
+   * go to your lical path where you want to create your repo.  in the path tab enter"cmd"
+  * in the command promt, enter the command "git clone (your url) "
+
+
+#  open VS code using command prompt
+    * use "code ."
+------------------------------------------------------------------------------------------------------------------------------
+# Basic defn:-
+   - A javascript is high level object oriented and multi paradigm programming language.
+ 
+# Advance Defn:-
+ - A js is high level, prototype-based, object-oriented, multi-paradigm,interpreted, 
+   just-in-time complied, single, threaded,garbage-collected programming with first 
+  class functions programming language.
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+single threaded
